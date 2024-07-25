@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: #000;
+    color: #fff;
+    font-family: tahoma;
+}
+
+header{
+    width: auto;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+
+span>img{
+    width: 100px;
+    height: 50px;
+}
+
+span a{
+    text-decoration: none;
+    margin-right: 20px;
+    color: #fff;
+    font-size: 15px;
+}
+
+span a:hover{
+    color: olivedrab;
+    transition: 2s;
+}
+.picture>img{
+    width: 100%;
+    height: 100vh;
+}
+.one{
+    display: flex;
+    margin: 40px;
+}
+.one1>p{
+    margin-right: 100px;
+}
+.one2{
+    display:flex ;
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
+    column-gap: 10px;
+    /* row-gap: 20px; */
+}
+.one3>img{
+    width: 150px;
+    height: 150px;
+}
+.one4>img{
+    width: 150px;
+    height: 150px;
+}
+
+.two2{
+    width: 20%;
+    margin-right: 20px;
+    text-align: justify;
+}
+.two{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+}
+.two1>p{
+    margin-right: 20px;
+}
+
+.three{
+    width: auto;
+    height: 80px;
+    background-color: yellow;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 40px;
+}
+.ha{
+    background-color: yellow;
+    color: #000;
+}
+button{
+    padding: 15px;
+    /* background-color: black; */
+    color: #fff;
+    border: none;
+    /* margin-left: 20px; */
+    border-radius: 20px;
+}
+
+button:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.four{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+}
+.four1{
+    width: 50vw;
+}
+.five{
+    width: 70vw;
+    margin: 40px;
+}
+
+.six{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 10px;
+    margin: 40px;
+}
+
+.seven{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+}
+.seven1{
+    width: 50vw;   
+}
+.eight{
+    width: 70vw;
+    margin-bottom: 30px;
+    margin: 40px;
+}
+.nine3>img{
+    background-color: yellow;
+}
+.nine2{
+    width: 50vw;
+}
+.nine2>P{
+    margin-left: 50px;
+    margin-top: -20px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+}
+
+.nine{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+}
